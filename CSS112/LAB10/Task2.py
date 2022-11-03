@@ -11,4 +11,8 @@ def Reduce_this_to_NestedListComprehension(N):
 
 def Problem2(N):
     primes = [i for i in range(1,N) if not [j for j in range(2,i) if i%j==0]]
+<<<<<<< HEAD
     return primes
+=======
+    return primes
+>>>>>>> 43493329e030c33a807967aadaea98a55b534d62
